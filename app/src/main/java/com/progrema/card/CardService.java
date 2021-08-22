@@ -44,7 +44,9 @@ public class CardService extends HostApduService {
      * @param reason Either DEACTIVATION_LINK_LOSS or DEACTIVATION_DESELECTED
      */
     @Override
-    public void onDeactivated(int reason) { }
+    public void onDeactivated(int reason) {
+        Log.d(TAG, "Deactivated: " + reason);
+    }
 
     /**
      * This method will be called when a command APDU has been received from a remote device. A
