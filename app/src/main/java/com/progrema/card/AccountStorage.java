@@ -14,6 +14,7 @@ import android.util.Log;
  * <p>This class is thread-safe.
  */
 public class AccountStorage {
+
     private static final String PREF_ACCOUNT_NUMBER = "account_number";
     private static final String DEFAULT_ACCOUNT_NUMBER = "00000000";
     private static final String TAG = "AccountStorage";
